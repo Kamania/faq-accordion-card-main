@@ -11,7 +11,7 @@
 body{
     font-size: 12px;
     font-family: 'Kumbh Sans', sans-serif;
-    background-image: linear-gradient(var(--soft-violet, var(--soft-blue)));
+    background: linear-gradient(var(--soft-violet), var(--soft-blue));
     min-height: 100vh;
     display: grid;
     justify-content: center;
@@ -21,4 +21,12 @@ body{
 main{
     background: #fff;
     max-width: 375px;
+    width: 300px;
+    border-radius: 1.2em;
+    padding: 2em;
+}
+
+.main-title{
+    text-align: center;
+    font-size: 2.5em;
 }
