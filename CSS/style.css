@@ -26,9 +26,21 @@ main{
     padding: 2em;
 }
 
+.illustration-images{
+
+}
+
+.woman-desktop-illustration{
+    width: 100%;
+}
+
+.box-desktop-illustration{
+    width: 40%;
+}
+
 .main-title{
     text-align: center;
-    font-size: 2.5em;
+    font-size: 3.5em;
 }
 
 .faq{
