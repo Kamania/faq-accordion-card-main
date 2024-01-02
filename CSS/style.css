@@ -18,24 +18,31 @@ body{
     align-content: center;
 }
 
-main{
-    background: #fff;
+main, header{
     max-width: 375px;
+    min-width: 348px;
     width: 300px;
-    border-radius: 1.2em;
     padding: 2em;
 }
 
-.illustration-images{
+main{
+    background: #fff;
+    border-radius: 1.2em;
+}
 
+.illustration-images{
+    text-align: center;
 }
 
 .woman-desktop-illustration{
-    width: 100%;
+    width: 75%;
 }
 
 .box-desktop-illustration{
-    width: 40%;
+    width: 28%;
+    position: relative;
+    bottom: 10.5em;
+    right: 6.8em;
 }
 
 .main-title{
